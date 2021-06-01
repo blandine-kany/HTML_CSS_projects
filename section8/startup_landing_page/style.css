@@ -31,12 +31,19 @@ hr {
   border-color: white;
   padding: 1rem 2rem;
 
+
 }
+
 
 #findmore:hover {
   background-color: darkcyan;
   border-color: white;
   border-width: 4px;
+}
+
+#findmore.animate__animated .animate__wobble {
+    --animate-delay: 2s;
+
 }
 
 
@@ -87,7 +94,7 @@ hr {
   color: white;
   /* combination so that the x is above other elements */
   position: relative;
-  z-index: 100;   /* The z-index property in CSS controls the vertical stacking order of elements that overlap. As in,
+  z-index: 100; /* The z-index property in CSS controls the vertical stacking order of elements that overlap. As in,
   which one appears as if it is physically closer to you. */
 
 }
