@@ -1,0 +1,123 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #e2dbdb;
+
+}
+
+hr {
+  border-color: cadetblue;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.buffer {
+  height: 13rem;
+}
+
+#findmore {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  background-color: cadetblue;
+  border-color: white;
+  padding: 1rem 2rem;
+}
+
+#findmore:hover {
+  background-color: darkcyan;
+  border-color: white;
+  border-width: 4px;
+}
+
+
+.modal-content {
+  background-color: rgb(53, 51, 51);
+}
+
+#rightModal .modal-dialog-slideout {
+  min-height: 100%;
+  margin: 0 0 0 auto;
+}
+
+.modal.fade .modal-dialog.modal-dialog-slideout {
+  transform: translate(100%, 0)scale(1);
+}
+
+.modal.fade.show .modal-dialog.modal-dialog-slideout {
+  transform: translate(0, 0);
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+}
+
+.modal.fade.show .modal-dialog.modal-dialog-slideout .modal-body {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.modal-dialog-slideout .modal-content {
+  border: 0;
+}
+
+.modal-dialog-slideout .modal-header,
+.modal-dialog-slideout .modal-footer {
+  height: 69px;
+  display: block;
+}
+
+#rightModal .modal-dialog-slideout .modal-header h5 {
+  float: left;
+  color: white;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#rightModal .modal-dialog-slideout .modal-header .close {
+  color: white;
+  /* combination so that the x is above other elements */
+  position: relative;
+  z-index: 100; /* The z-index property in CSS controls the vertical stacking order of elements that overlap. As in,
+  which one appears as if it is physically closer to you. */
+
+}
+
+#rightModal .modal-dialog-slideout .modal-body h5 {
+  color: white;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#rightModal .modal-dialog-slideout .modal-body {
+  color: white;
+
+}
+
+#rightModal .modal-dialog-slideout .modal-body hr {
+  border-color: white;
+  border-width: 3px;
+  max-width: 200px;
+}
+
+#rightModal .modal-dialog-slideout .modal-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.doIt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%
+}
