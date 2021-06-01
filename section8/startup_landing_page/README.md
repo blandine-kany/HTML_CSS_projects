@@ -1,0 +1,1 @@
+A simple responsive startup landing page created with HTML5, CSS3 and Bootstrap4.
