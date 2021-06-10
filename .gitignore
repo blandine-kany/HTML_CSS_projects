@@ -1,0 +1,27 @@
+# Ignore all directories, and all sub-directories, and it's contents:
+/*
+
+# But not these files...
+!.gitignore
+
+# if the files to be tracked are in subdirectories
+!section8/
+section8/**/
+!section8/startup-landing-page/**
+
+!exos/
+exos/*
+!exos/**/
+!exos/simple-website/**
+
+!section9/
+section9/*
+!section9/**/
+section9/css_grid_intro/*
+!section9/project-layout/**
+
+!section12/
+section12/*
+section12/shopping-list/*
+!section12/**/
+!section12/backrground-generator/**

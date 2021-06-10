@@ -1,2 +1,2 @@
-# HTML_CSS_projects
-Some HTML and CSS projects/pages so to improve in frontend development 
+# frontend-dev-projects
+Some simple HTML, CSS and Javascript projects/pages so to improve in frontend development 
