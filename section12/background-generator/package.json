@@ -1,0 +1,19 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "A Background color generator created with some HTML5, CSS3 & Javascript.",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js",
+    "browser": "browser-sync start --server --files='**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blandine-kany/frontend-dev-projects/tree/main/section12/background-generator"
+  },
+  "author": "Kanyamibwa Blandine",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
