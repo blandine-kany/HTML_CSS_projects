@@ -1,3 +1,9 @@
+var _ =  require('lodash');
+
+
+let array = [5,3,8,9,7,2,3,8,1,8,2,8,3,7,36,3];
+console.log('answer:', _.without(array,3));
+
 var h3 = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
@@ -37,7 +43,6 @@ color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
 button.addEventListener("click", setRandomColors);
 
-
 //Another way to generate a random color
 function getRandomGradient() {
   let r1 = getRandomInt(256);
@@ -48,7 +53,11 @@ function getRandomGradient() {
   let b2 = getRandomInt(256);
   let randomGradient =
     "linear-gradient(to right,rgb(" +
-    r1 + ", " + g1 + ", " + b1 +
+    r1 +
+    ", " +
+    g1 +
+    ", " +
+    b1 +
     "), rgb(" +
     r2 +
     ", " +
